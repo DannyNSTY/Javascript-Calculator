@@ -19,3 +19,86 @@ button {
     url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7')
       format('svg');
 }
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #ffffff;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.calculator {
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+}
+
+.formulaScreen {
+  min-height: 20px;
+  font-family: digital;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.outputScreen {
+  font-size: 29px;
+  font-family: digital;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #8ecae6;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+button:hover {
+    color: black;
+    outline: 0.05em solid grey;
+    z-index: 3;
+    opacity: 0.7;
+    box-shadow: rgba(50, 50, 93, 0.50) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  font-family: Share Tech Mono, sans;
+  margin-top: 15px;
+}
+  a {
+    text-decoration: none;
+    color: #fca311;
+    line-height: 26px;
+  }
+
+
